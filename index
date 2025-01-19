@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Game Tracker</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="elementos.html">Elementos</a></li>
+                <li><a href="morph.html">Morph</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Bem-vindo ao Game Tracker!</h2>
+            <p>Este site ajuda você a rastrear progresso em jogos, começando com Chrono Cross.</p>
+            <p>Escolha uma opção no menu para começar.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Game Tracker</p>
+    </footer>
+</body>
+</html>

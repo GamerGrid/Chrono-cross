@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morph Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Transformações de Sprigg</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="elementos.html">Elementos</a></li>
+                <li><a href="morph.html">Morph</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Rastreador de Transformações</h2>
+            <p>Use os botões abaixo para marcar o progresso das transformações de Sprigg.</p>
+            <div id="monster-list">
+                <div class="monster">
+                    <div class="monster-header">
+                        <span>Goblin</span>
+                        <button class="toggle-details">▼</button>
+                        <button class="counter" onclick="increment('goblin')">+</button>
+                        <button class="counter" onclick="decrement('goblin')">-</button>
+                    </div>
+                    <div class="monster-details hidden">
+                        <p>HP: 100</p>
+                        <p>Elemento: Verde</p>
+                        <p>
+                            Localização: 
+                            <a href="https://imgur.com/location-link" target="_blank">Forest of Illusion</a>
+                        </p>
+                        <img class="monster-image" src="https://imgur.com/monster-image.jpg" alt="Goblin" />
+                        <div class="element-grid">
+                            <p>Habilidades:</p>
+                            <ul>
+                                <li>Ability 1</li>
+                                <li>Ability 2</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Game Tracker</p>
+    </footer>
+</body>
+</html>
